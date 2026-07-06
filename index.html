@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Location</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <div class="icon">📍</div>
+
+    <h1>Location Finder</h1>
+    <p class="subtitle">
+        Tap the button below to share your current location.
+    </p>
+
+    <button id="locBtn">Share My Location</button>
+
+    <div id="status">Waiting...</div>
+
+    <div id="info" class="hidden">
+        <p><strong>Latitude:</strong> <span id="lat"></span></p>
+        <p><strong>Longitude:</strong> <span id="lon"></span></p>
+
+        <a id="mapLink" target="_blank">
+            Open in Google Maps
+        </a>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+      </html>
